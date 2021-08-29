@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.step-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.step-container > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root {
+  background-color: #1b1d20;
+}
+:root {
+  --background-color: #f7f7f7;
+  --secondary-color: #00F0FF;
+  --primary: #00B6F0;
+  --primary-color: var(--primary);
+  --text-color-dark: black;
+  --text-color-light: rgb(149, 150, 154);
+  --text-color-lighter: rgb(202, 203, 204);
+  --breakpoint: 540px;
+
+  --size-extremely-large: 32px;
+  --size-large: 24px;
+  --size-medium: 18px;
+  --size-small: 16px;
+  --size-extremely-small: 14px;
+
+  --border-color-dark: #c9c7c7;
+  --border-color-light: #dbd9d9;
+}
+.color-light {
+  color: var(--text-color-light) !important;
+}
+.color-primary {
+  color: var(--primary-color) !important;
+}
+.color-dark {
+  color: var(--text-color-dark) !important;
+}
+.size-extremely-large {
+  font-size: var(--size-extremely-large) !important;
+}
+.size-large {
+  font-size: var(--size-large) !important;
+}
+.size-medium {
+  font-size: var(--size-medium) !important;
+}
+.size-small {
+  font-size: var(--size-small) !important;
+}
+.size-extremely-small {
+  font-size: var(--size-extremely-small) !important;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.br-light-1 {
+  border-right: 1px solid var(--border-color-light) !important;
+}
+.br-dark-1 {
+  border-right: 1px solid var(--border-color-dark) !important;
+}
+div.br-dark-el {
+  width: 1px;
+  border-right: 1px solid var(--border-color-dark);
+}
+
+div.br-light-el {
+  width: 1px;
+  border-right: 1px solid var(--border-color-light);
+}
+.w-100 {
+  width: 100% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-45 {
+  width: 45% !important;
+}

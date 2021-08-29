@@ -1,0 +1,108 @@
+.play-now-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 86px 64px;
+  width: 603px;
+  height: 880px;
+  background: rgba(12, 29, 61, 0.5);
+  border-radius: 24px;
+  position: relative;
+}
+
+.play-now-wrapper .background-img {
+  opacity: 0.05;
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+
+.play-now-wrapper .logo {
+  width: 291px;
+  height: 269px;
+}
+
+.play-now-wrapper .logo-text {
+  widtH: 435px;
+  height: 87px;
+  margin: 23px auto 51px auto;
+}
+
+.play-now-wrapper .text-wrapper {
+  border: 2px solid var(--primary-color);
+  border-radius: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 10%;
+}
+
+.play-now-wrapper .text-wrapper .title {
+  font-family: Questrial;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FF8B02;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.play-now-wrapper .text-wrapper .description {
+  text-align: center;
+  font-family: Questrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.play-now-wrapper .play-button {
+  width: 241px;
+  height: 86px;
+  margin-top: 62px;
+}
+/*# sourceMappingURL=playNow.css.map */

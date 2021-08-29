@@ -1,0 +1,115 @@
+.wrapper {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper .first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.wrapper .first-section .play-now {
+  margin: 139px auto 197px auto;
+}
+
+.wrapper .first-section .top1 {
+  width: 658px;
+  height: 658px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.wrapper .first-section .top2 {
+  width: 575px;
+  height: 575px;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.wrapper .middle-bar {
+  width: 100%;
+  height: 192px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(21, 29, 48, 0.95);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: visible;
+  padding: 0 42px;
+}
+
+.wrapper .middle-bar .background-img {
+  position: absolute;
+  width: 152px;
+  height: 141px;
+  left: calc(50% - 76px);
+}
+
+.wrapper .middle-bar .second1 {
+  width: 184px;
+  height: 166px;
+  z-index: 1;
+}
+
+.wrapper .middle-bar .second2 {
+  width: 353px;
+  height: 353px;
+  z-index: 1;
+}
+
+.wrapper .middle-bar .second3 {
+  width: 350px;
+  height: 346px;
+  z-index: 1;
+}
+
+.wrapper .middle-bar .second4 {
+  width: 142px;
+  height: 169px;
+  z-index: 1;
+}
+
+.wrapper .middle-bar .fade {
+  opacity: 0.05;
+}
+
+.wrapper .middle-bar .title {
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+/*# sourceMappingURL=home.css.map */
