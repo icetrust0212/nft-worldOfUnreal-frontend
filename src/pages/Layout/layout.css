@@ -4,5 +4,7 @@
 
 .page-layout {
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=layout.css.map */
