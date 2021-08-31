@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "gameCharactersViewMobile.scss"
+    ],
+    "names": [],
+    "file": "gameCharactersViewMobile.css"
+}

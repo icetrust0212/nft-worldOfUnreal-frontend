@@ -1,0 +1,54 @@
+.character-wrapper {
+    height: 112px;
+    width: 100%;
+    align-items: center;
+
+    .character-image {
+        width: 204px;
+        height: 270px;
+    }
+
+    .detail-view {
+        display: block;
+        padding: 20px 10px;
+        height: 100%;
+        width: 100%;
+        visibility: hidden;
+        .name1,
+        .name2 {
+            font-family: Questrial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: fit-content;
+            height: 50%;;
+            display: flex;
+            color: #00CFEB;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .name1 {
+            margin-bottom: auto;
+            margin-right: auto;
+            text-align: start;
+            margin-left: 10px;
+        }
+        .name2 {
+            margin-top: auto;
+            margin-left: auto;
+            text-align: end;
+            margin-right: 20px;
+        }
+    }
+
+    &.active {
+        background: #2E2E2E;
+        .detail-view {
+            visibility: visible;
+        }
+    }
+
+}

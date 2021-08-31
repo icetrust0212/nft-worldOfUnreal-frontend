@@ -1,0 +1,66 @@
+.character-wrapper {
+  height: 112px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.character-wrapper .character-image {
+  width: 204px;
+  height: 270px;
+}
+
+.character-wrapper .detail-view {
+  display: block;
+  padding: 20px 10px;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+.character-wrapper .detail-view .name1,
+.character-wrapper .detail-view .name2 {
+  font-family: Questrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 50%;
+  display: flex;
+  color: #00CFEB;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.character-wrapper .detail-view .name1 {
+  margin-bottom: auto;
+  margin-right: auto;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.character-wrapper .detail-view .name2 {
+  margin-top: auto;
+  margin-left: auto;
+  text-align: end;
+  margin-right: 20px;
+}
+
+.character-wrapper.active {
+  background: #2E2E2E;
+}
+
+.character-wrapper.active .detail-view {
+  visibility: visible;
+}
+/*# sourceMappingURL=characterViewMobile.css.map */
