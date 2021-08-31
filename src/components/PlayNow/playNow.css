@@ -12,9 +12,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 86px 64px;
-  width: 603px;
-  height: 880px;
+  padding: 4vw;
+  width: 35vw;
+  height: 50vw;
   background: rgba(12, 29, 61, 0.5);
   border-radius: 24px;
   position: relative;
@@ -29,19 +29,17 @@
 }
 
 .play-now-wrapper .logo {
-  width: 291px;
-  height: 269px;
+  width: 11vw;
 }
 
 .play-now-wrapper .logo-text {
-  widtH: 435px;
-  height: 87px;
-  margin: 23px auto 51px auto;
+  width: 20vw;
+  margin: 1vw auto 2vw auto;
 }
 
 .play-now-wrapper .text-wrapper {
   border: 2px solid var(--primary-color);
-  border-radius: 37px;
+  border-radius: 2.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,8 +64,8 @@
   text-align: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 29px;
+  font-size: 2vw;
+  line-height: 2vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,6 +76,7 @@
   text-transform: uppercase;
   color: #FF8B02;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  margin: 0;
 }
 
 .play-now-wrapper .text-wrapper .description {
@@ -85,8 +84,8 @@
   font-family: Questrial;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 22px;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,12 +96,43 @@
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
-  padding: 20px 0;
+  padding: 1vw 0;
 }
 
 .play-now-wrapper .play-button {
-  width: 241px;
-  height: 86px;
-  margin-top: 62px;
+  width: 12vw;
+  margin-top: 3vw;
+}
+
+@media (max-width: 767px) {
+  .play-now-wrapper {
+    width: 90vw;
+    height: 566px;
+  }
+  .play-now-wrapper .text-wrapper {
+    padding: 10px 10%;
+  }
+  .play-now-wrapper .text-wrapper .title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .play-now-wrapper .text-wrapper .description {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .play-now-wrapper .logo {
+    width: 187px;
+    height: 173px;
+  }
+  .play-now-wrapper .logo-text {
+    width: 280px;
+    height: 56px;
+    margin: 18px auto 32px auto;
+  }
+  .play-now-wrapper .play-button {
+    width: 155px;
+    height: 55px;
+    margin-top: 32px;
+  }
 }
 /*# sourceMappingURL=playNow.css.map */

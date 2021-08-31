@@ -5,7 +5,7 @@ import './centerHeader.css';
 
 const CenterHeader = (props: PropsType) => {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="light" sticky="top" className="navbar-header" style={{ backgroundImage: 'url("/assets/images/backgrounds/navbar.png")' }}>
+        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="navbar-header">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="navbar-center">
                 <Nav className="nav-list">

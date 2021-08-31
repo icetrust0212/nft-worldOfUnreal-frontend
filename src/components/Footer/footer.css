@@ -1,0 +1,83 @@
+.page-footer {
+  padding: 1vw 2vw;
+  background: #222D38;
+  height: 25vw;
+}
+
+.page-footer .left {
+  height: 100%;
+  position: relative;
+}
+
+.page-footer .left .footer-menu-wrapper {
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.page-footer .left .background {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+.page-footer .left .footer-menu {
+  z-index: 1;
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.page-footer .middle .banner {
+  height: 70%;
+  width: auto;
+  margin-bottom: auto;
+}
+
+.page-footer .middle .footer-label1, .page-footer .middle .footer-label2 {
+  font-size: 1vw;
+  color: white;
+  line-height: 1.2vw;
+  text-align: center;
+}
+
+.page-footer .right {
+  height: 100%;
+  margin-top: auto;
+  padding-bottom: 2vw;
+}
+
+.page-footer .right .social-icon-wrapper {
+  display: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 70%;
+  margin-bottom: auto;
+}
+
+.page-footer .right .social-icon-wrapper .icon-layout {
+  padding: 1vw;
+}
+
+.page-footer .right .social-icon-wrapper .icon-layout .social-icon {
+  width: 100%;
+  height: auto;
+  padding: 1vw;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.page-footer .right .footer-label3 {
+  margin-top: auto;
+  color: white;
+  font-size: 1vw;
+  line-height: 1.2vw;
+}
+/*# sourceMappingURL=footer.css.map */

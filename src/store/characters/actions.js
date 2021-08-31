@@ -35,6 +35,7 @@ export const types = createTypes(['GET_TEAM1', 'GET_TEAM2'], 'CHARACTER')
 
 //   });
 // }
+
 const getRank = (arrayData, item) => {
     for (let i = 0; i < arrayData.length; i++) {
         if (arrayData[i].height === item.height) return i;
@@ -53,10 +54,12 @@ export const getCharactersByTeam = (team) => {
         return 0;
     })
     let sortedData = [];
+    let minHeight = sortedData[0];
     data.map(item => {
         sortedData.push({
             ...item,
-            order: getRank(cloneData, item),
+            width: item.height / minHeight,
+            order: getRank(cloneData, item)
         })
     });
     return {

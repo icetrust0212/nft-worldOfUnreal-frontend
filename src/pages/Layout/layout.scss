@@ -7,3 +7,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media(max-width: 767px) {
+    .page-layout {
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,335 @@
+.game-characters-view-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6vw 0;
+}
+
+.game-characters-view-desktop .left-section,
+.game-characters-view-desktop .right-section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 5vh 3vw 1vh 3vw;
+}
+
+.game-characters-view-desktop .left-section .character-item,
+.game-characters-view-desktop .right-section .character-item {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.game-characters-view-desktop .left-section .character-item .character-name-layout,
+.game-characters-view-desktop .right-section .character-item .character-name-layout {
+  font-family: Questrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #00B6F0;
+  position: absolute;
+  padding: 1.5vw 2.5vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.game-characters-view-desktop .left-section .character-item .character-name-layout .character-name,
+.game-characters-view-desktop .right-section .character-item .character-name-layout .character-name {
+  z-index: 1;
+}
+
+.game-characters-view-desktop .left-section .character-item .character-name-layout img,
+.game-characters-view-desktop .right-section .character-item .character-name-layout img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.game-characters-view-desktop .left-section .character-item img,
+.game-characters-view-desktop .right-section .character-item img {
+  width: 100%;
+  height: auto;
+}
+
+.game-characters-view-desktop .left-section {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.game-characters-view-desktop .left-section .character-item.offset {
+  margin-left: -13vw;
+}
+
+.game-characters-view-desktop .left-section .character-name-layout {
+  bottom: 100%;
+  left: 0;
+  -webkit-transform: rotate(-11.16deg);
+          transform: rotate(-11.16deg);
+}
+
+.game-characters-view-desktop .right-section {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.game-characters-view-desktop .right-section .character-item.offset {
+  margin-right: -13vw;
+}
+
+.game-characters-view-desktop .right-section .character-name-layout {
+  right: 0;
+  bottom: 100%;
+  -webkit-transform: rotate(11.16deg);
+          transform: rotate(11.16deg);
+}
+
+.game-characters-view-desktop .middle-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.game-characters-view-desktop .middle-section .background {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.game-characters-view-desktop .middle-section .logo {
+  width: 18vw;
+}
+
+.game-characters-view-desktop .middle-section .title-wrapper {
+  position: relative;
+  width: 25vw;
+  height: 10vw;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.game-characters-view-desktop .middle-section .title-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.game-characters-view-desktop .middle-section .title-wrapper .title-layout {
+  z-index: 1;
+}
+
+.game-characters-view-desktop .middle-section .title-wrapper .title {
+  font-family: Questrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vw;
+  line-height: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.game-characters-view-desktop .middle-section .title-wrapper .title.primary {
+  color: var(--primary-color);
+}
+
+.game-characters-view-desktop .text-layout {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  bottom: 2vw;
+  padding: 12px;
+  z-index: 2;
+}
+
+.game-characters-view-desktop .text-layout article {
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  border-radius: 32px;
+  color: white;
+  width: 80%;
+  font-size: 2vw;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.game-characters-short-view {
+  height: 10vw;
+  background: #151D30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game-characters-short-view .left, .game-characters-short-view .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 30%;
+}
+
+.game-characters-short-view .character-item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5vw;
+  border: 1px solid var(--primary-color);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game-characters-short-view .character-item img {
+  height: 100%;
+  width: auto;
+}
+
+.game-characters-short-view .center {
+  padding: 2vw 3vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game-characters-short-view .center .background {
+  position: absolute;
+  width: 6vw;
+  left: calc(50% - 3vw);
+  top: 0;
+  opacity: 0.05;
+}
+
+.game-characters-short-view .center label {
+  text-transform: uppercase;
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.game-characters-short-view .center .border {
+  width: 12vw;
+  height: 2px;
+  background: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 6vw);
+}
+/*# sourceMappingURL=gmaeCharactersViewDesktop.css.map */
