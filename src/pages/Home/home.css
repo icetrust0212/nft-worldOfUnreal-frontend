@@ -141,7 +141,7 @@
   right: 1.25%;
   top: 8.42%;
   bottom: -0.06%;
-  padding: 1.5vw;
+  padding: 5px;
   background: rgba(90, 35, 207, 0.22);
   border: 2px solid #1AA0BD;
   -webkit-box-sizing: border-box;
@@ -162,7 +162,7 @@
   font-family: Questrial;
   font-style: normal;
   font-weight: normal;
-  font-size: 3vw;
+  font-size: 2.5vw;
   line-height: 148.5%;
   display: -webkit-box;
   display: -ms-flexbox;

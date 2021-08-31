@@ -54,6 +54,7 @@
 }
 #root {
   background-color: #1b1d20;
+  font-family: 'Segoe UI Regular';
 }
 :root {
   --background-color: #f7f7f7;
