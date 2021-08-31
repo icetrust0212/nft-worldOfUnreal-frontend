@@ -36,8 +36,6 @@
   position: absolute;
   right: 0;
   bottom: 3vw;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
 }
 
 .wrapper .middle-bar {
