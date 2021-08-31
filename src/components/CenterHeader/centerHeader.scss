@@ -1,30 +1,37 @@
 .navbar-header {
     width: 100% !important;
+
     * {
         height: 100%;
     }
+
     justify-content: center !important;
-    padding: 0!important;
+    padding: 0 !important;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+
     a:hover {
         color: var(--primary-color) !important;
     }
+
     .navbar-center {
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
     }
-    
+
 }
+
 .navbar-dark .navbar-toggler-icon {
     height: 80%;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: white !important;
-    padding: 0!important;
+    padding: 0 !important;
 }
+
 .navbar-dark .navbar-toggler {
     padding: 0 !important;
 }
@@ -33,12 +40,14 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-left: 10%!important;
-    padding-right: 10%!important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
     height: 100%;
-    .menu-item  {
+
+    .menu-item {
         position: relative;
         padding: 10px;
+
         .menu-background-img {
             position: absolute;
             height: auto;
@@ -47,6 +56,7 @@
             left: calc(50% - 30px);
             opacity: 0.5;
         }
+
         a {
             height: 100%;
             display: flex;
@@ -62,8 +72,9 @@
             text-transform: uppercase;
         }
     }
+
     .menu-item:not(:last-child) {
-        border-right: 1px solid var(--primary-color) ;
+        border-right: 1px solid var(--primary-color);
     }
 }
 
@@ -72,15 +83,31 @@
         .menu-background-img {
             display: none;
         }
+
         align-items: center;
         background: rgb(12, 29, 61);
         width: fit-content;
     }
+
     .navbar-center {
         height: fit-content;
     }
+
     .menu-item {
         padding: 0;
         border-right: none !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .nav-list {
+        .menu-item {
+            a {
+                font-size: 14px;
+                line-height: 20px;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
     }
 }

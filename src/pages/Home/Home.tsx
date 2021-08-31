@@ -34,7 +34,7 @@ const Home = (props: any) => {
           <img src="/assets/images/second-1.png" alt="second-1" className="second1 fade" />
           <img src="/assets/images/second-2.png" alt="second-2" className="second2" />
           <h3 className="title">GET ON THE SHIP!</h3>
-          <div className="border"></div>
+          <div className="border mb-2" style={{backgroundColor:'#FF8A00'}}></div>
           <img src="/assets/images/second-3.png" alt="second-3" className="second3" />
           <img src="/assets/images/second-4.png" alt="second-4" className="second4 fade" />
         </div>
@@ -62,8 +62,8 @@ const Home = (props: any) => {
           <img src="/assets/images/craft-2.png" alt="craft" className="fade background-img" />
           <img src="/assets/images/third1.png" alt="second-1" className="second1 fade" />
           <img src="/assets/images/third2.png" alt="second-2" className="second2 bottom-offset" />
-          <h3 className="title">FREE TO PLAY PLAY TO EARN!</h3>
-          <div className="border"></div>
+          <h3 className="title">FREE TO PLAY<br /> PLAY TO EARN!</h3>
+          <div className="border" style={{backgroundColor: 'var(--secondary-color)'}}></div>
           <img src="/assets/images/third3.png" alt="second-3" className="second3 bottom-offset" />
           <img src="/assets/images/third4.png" alt="second-4" className="second4 fade" />
         </div>

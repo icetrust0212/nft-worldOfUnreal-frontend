@@ -113,4 +113,13 @@
     border-right: none !important;
   }
 }
+
+@media (max-width: 767px) {
+  .nav-list .menu-item a {
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+}
 /*# sourceMappingURL=centerHeader.css.map */

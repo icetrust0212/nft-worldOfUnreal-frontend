@@ -16,6 +16,10 @@
           align-items: center;
 }
 
+.article.media .media-body {
+  width: 100%;
+}
+
 .article.media .thumbnail {
   width: 8vw;
   margin-right: 2vw;
@@ -64,7 +68,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 10px;
   margin-top: 1vw;
 }
 
@@ -81,5 +84,68 @@
   padding: 1;
   color: white;
   font-size: 1.5vw;
+}
+
+@media (max-width: 767px) {
+  .article.media .thumbnail {
+    width: 72px;
+    margin-right: 13px;
+  }
+  .article.media .title {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .article.media .text,
+  .article.media .footer {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .article.media .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1vw;
+  }
+  .article.media .footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  .article.media .footer .btn.more {
+    background: var(--primary-color);
+    border-radius: 25px;
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+    padding: 1;
+    color: white;
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=article.css.map */

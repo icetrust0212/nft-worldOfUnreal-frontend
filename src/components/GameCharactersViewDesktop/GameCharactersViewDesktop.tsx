@@ -73,7 +73,7 @@ const GameCharactersViewDesktop = ({ team1, team2 }: PropsType) => {
                 <div className="center">
                     <img src="/assets/images/craft-2.png" alt="" className="background" />
                     <label>who will you choose</label>
-                    <div className="border"></div>
+                    <div className="border" style={{borderColor: 'var(--primary-color)'}}></div>
                 </div>
                 <div className="right">
                     {
