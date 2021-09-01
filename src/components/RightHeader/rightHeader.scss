@@ -27,18 +27,19 @@
         padding-right: 1.5vw;
     }
     .avatar {
-        width: 3vw;
+        width: 5vw;
+        height: auto;
         border: 5px solid #5dbce7;
         border-top-right-radius: 12px;
         border-bottom-left-radius: 12px;
         padding: 0.2vw;
         background-color: white;
+        margin-top: 9px;
     }
     
     .header-connect {
-        width: 10vw;
+        width: 8vw;
         height: 3vw;
-        margin-left: 1.5vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,7 +48,7 @@
         box-sizing: border-box;
         filter: drop-shadow(4px 4px 4px rgba(0, 255, 255, 0.25));
         border-radius: 8px;
-        font-size: 2vw;
+        font-size: 1vw;
     }
     .setting {
         display: none;
@@ -60,6 +61,18 @@
         .background {
             width: 100%;
             height: auto;
+        }
+        .avatar {
+            height: 4.5vw;
+            margin-top: 0px;
+        }
+    }
+}
+@media(min-width: 1600px) {
+    .right-pageHeader-wrapper {
+        
+        .avatar {
+            height: 5vw
         }
     }
 }

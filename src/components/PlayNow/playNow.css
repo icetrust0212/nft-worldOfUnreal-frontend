@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 4vw;
-  width: 35vw;
-  height: 50vw;
+  width: 32vw;
+  height: 45vw;
   background: rgba(12, 29, 61, 0.5);
   border-radius: 24px;
   position: relative;
@@ -65,7 +65,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2vw;
-  line-height: 2vh;
+  line-height: 2vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

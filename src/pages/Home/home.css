@@ -18,6 +18,9 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .wrapper .first-section .play-now {
@@ -25,14 +28,14 @@
 }
 
 .wrapper .first-section .top1 {
-  width: 23vw;
+  width: 36vw;
   position: absolute;
   left: 0;
   top: 0;
 }
 
 .wrapper .first-section .top2 {
-  width: 21vw;
+  width: 30vw;
   position: absolute;
   right: 0;
   bottom: 3vw;

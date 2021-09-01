@@ -43,18 +43,19 @@
 }
 
 .right-pageHeader-wrapper .avatar {
-  width: 3vw;
+  width: 5vw;
+  height: auto;
   border: 5px solid #5dbce7;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   padding: 0.2vw;
   background-color: white;
+  margin-top: 9px;
 }
 
 .right-pageHeader-wrapper .header-connect {
-  width: 10vw;
+  width: 8vw;
   height: 3vw;
-  margin-left: 1.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +72,7 @@
   -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 255, 255, 0.25));
           filter: drop-shadow(4px 4px 4px rgba(0, 255, 255, 0.25));
   border-radius: 8px;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 .right-pageHeader-wrapper .setting {
@@ -82,6 +83,16 @@
   .right-pageHeader-wrapper .background {
     width: 100%;
     height: auto;
+  }
+  .right-pageHeader-wrapper .avatar {
+    height: 4.5vw;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .right-pageHeader-wrapper .avatar {
+    height: 5vw;
   }
 }
 

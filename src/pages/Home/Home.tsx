@@ -25,7 +25,7 @@ const Home = (props: any) => {
   return (
     <Layout>
       <div className="wrapper">
-        <div className="first-section">
+        <div className="first-section" style={{backgroundImage: 'url(/assets/images/backgrounds/first.svg)'}}>
           <div className="play-now">
             <PlayNow></PlayNow>
           </div>

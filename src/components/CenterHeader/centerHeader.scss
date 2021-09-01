@@ -1,6 +1,6 @@
 .navbar-header {
     width: 100% !important;
-
+    background: rgba(#273D4D, 0.8);
     * {
         height: 100%;
     }
@@ -47,13 +47,14 @@
     .menu-item {
         position: relative;
         padding: 10px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .menu-background-img {
             position: absolute;
             height: auto;
-            width: 3vw;
-            height: 50px;
-            left: calc(50% - 30px);
+            height: 3.5vw;
+            margin: auto;
             opacity: 0.5;
         }
 
@@ -66,7 +67,7 @@
             font-family: Prompt;
             font-style: normal;
             font-weight: normal;
-            font-size: 1.5vw;
+            font-size: 1.3vw;
             line-height: 32px;
             color: white;
             text-transform: uppercase;
@@ -85,7 +86,7 @@
         }
 
         align-items: center;
-        background: rgb(12, 29, 61);
+        background: rgba(12, 29, 61, 0.7);
         width: fit-content;
     }
 

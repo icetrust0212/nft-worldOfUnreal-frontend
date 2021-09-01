@@ -1,5 +1,6 @@
 .navbar-header {
   width: 100% !important;
+  background: rgba(39, 61, 77, 0.8);
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
@@ -54,14 +55,22 @@
 .nav-list .menu-item {
   position: relative;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-list .menu-item .menu-background-img {
   position: absolute;
   height: auto;
-  width: 3vw;
-  height: 50px;
-  left: calc(50% - 30px);
+  height: 3.5vw;
+  margin: auto;
   opacity: 0.5;
 }
 
@@ -80,7 +89,7 @@
   font-family: Prompt;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   line-height: 32px;
   color: white;
   text-transform: uppercase;
@@ -95,7 +104,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #0c1d3d;
+    background: rgba(12, 29, 61, 0.7);
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;

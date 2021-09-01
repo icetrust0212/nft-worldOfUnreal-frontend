@@ -139,7 +139,7 @@
     color: var(--primary-color);
   }
   .article.media .footer .btn.more {
-    background: var(--primary-transparent);
+    background: var(--primary-color);
     border-radius: 25px;
     -webkit-transform: rotate(-2deg);
             transform: rotate(-2deg);

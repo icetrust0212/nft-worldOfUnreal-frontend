@@ -8,20 +8,22 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     .play-now {
       margin: 6vw auto 8vw auto;
     }
 
     .top1 {
-      width: 23vw;
+      width: 36vw;
       position: absolute;
       left: 0;
       top: 0;
     }
 
     .top2 {
-      width: 21vw;
+      width: 30vw;
       position: absolute;
       right: 0;
       bottom: 3vw;

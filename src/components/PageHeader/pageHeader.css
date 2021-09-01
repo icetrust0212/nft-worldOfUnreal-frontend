@@ -8,7 +8,7 @@
 
 .page-header-wrapper .left-wrapper {
   width: 25vw;
-  height: 120px;
+  height: 122px;
   z-index: 2;
 }
 
@@ -26,14 +26,14 @@
 
 .page-header-wrapper .right-wrapper {
   width: 25vw;
-  height: 120px;
+  height: 122px;
   z-index: 2;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .page-header-wrapper .left-wrapper {
     width: 25vw;
-    height: 78px;
+    height: 79px;
     z-index: 2;
   }
   .page-header-wrapper .center-wrapper {
@@ -46,7 +46,7 @@
   }
   .page-header-wrapper .right-wrapper {
     width: 25vw;
-    height: 78px;
+    height: 79px;
     z-index: 2;
   }
 }
@@ -54,7 +54,7 @@
 @media screen and (max-width: 767px) {
   .page-header-wrapper .left-wrapper {
     width: 160px;
-    height: 39px;
+    height: 40px;
     z-index: 2;
   }
   .page-header-wrapper .center-wrapper {
@@ -67,7 +67,7 @@
   }
   .page-header-wrapper .right-wrapper {
     width: 160px;
-    height: 39px;
+    height: 40px;
     z-index: 2;
   }
 }
