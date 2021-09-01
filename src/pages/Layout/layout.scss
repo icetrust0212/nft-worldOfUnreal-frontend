@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 767px) and (max-device-width: 767px) {
     .page-layout {
         padding-top: 50px;
     }

@@ -76,7 +76,7 @@
     }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 767px) and (max-device-width: 767px){
     .play-now-wrapper {
         width: 90vw;
         height: 566px;

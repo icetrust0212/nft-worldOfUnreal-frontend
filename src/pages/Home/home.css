@@ -256,7 +256,7 @@
   left: calc(50% - 6vw);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (max-device-width: 767px) {
   .wrapper .first-section .top1 {
     width: 146px;
     height: 146px;

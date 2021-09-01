@@ -1,6 +1,7 @@
 .navbar-header {
     width: 100% !important;
     background: rgba(#273D4D, 0.8);
+
     * {
         height: 100%;
     }
@@ -31,9 +32,15 @@
     color: white !important;
     padding: 0 !important;
 }
-
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
 .navbar-dark .navbar-toggler {
     padding: 0 !important;
+    display: none ;
+}
+.collapse:not(.show) {
+    display: flex !important;
 }
 
 .nav-list {
@@ -50,6 +57,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         .menu-background-img {
             position: absolute;
             height: auto;
@@ -79,7 +87,19 @@
     }
 }
 
-@media(max-width: 991px) {
+@media(min-width: 992px) and (min-device-width: 992px) {
+    .nav-list {
+        .navbar-nav {
+            flex-direction: row !important;
+            .collapse:not(.show) {
+                display: flex;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 991px) and (max-device-width: 991px) {
     .nav-list {
         .menu-background-img {
             display: none;
@@ -98,9 +118,19 @@
         padding: 0;
         border-right: none !important;
     }
+    .navbar-dark .navbar-toggler {
+        display: flex !important;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column !important;
+        display: flex; 
+    }
+    .collapse:not(.show) {
+        display: none !important;
+    }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 767px) and (max-device-width: 767px) {
     .nav-list {
         .menu-item {
             a {

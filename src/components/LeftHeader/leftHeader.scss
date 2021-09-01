@@ -46,7 +46,7 @@
     
 }
 
-@media(min-width: 2000px) {
+@media(min-width: 2000px) and (min-device-width: 2000px) {
     .left-pageHeader-wrapper {
         .background {
             width: 100%;

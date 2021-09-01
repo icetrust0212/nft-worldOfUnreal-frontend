@@ -29,12 +29,12 @@
     .avatar {
         width: 5vw;
         height: auto;
-        border: 5px solid #5dbce7;
-        border-top-right-radius: 12px;
-        border-bottom-left-radius: 12px;
+        border: 0.5vw solid #5dbce7;
+        border-top-right-radius: 1vw;
+        border-bottom-left-radius: 1vw;
         padding: 0.2vw;
         background-color: white;
-        margin-top: 9px;
+        margin-top: 1vw;
     }
     
     .header-connect {
@@ -56,7 +56,7 @@
 }
 
 
-@media(min-width: 2000px) {
+@media(min-width: 2000px) and (min-device-width: 2000px){
     .right-pageHeader-wrapper {
         .background {
             width: 100%;
@@ -68,16 +68,15 @@
         }
     }
 }
-@media(min-width: 1600px) {
+@media(min-width: 1600px) and (min-device-width: 1600px) {
     .right-pageHeader-wrapper {
-        
         .avatar {
             height: 5vw
         }
     }
 }
 
-@media(max-width: 991px) {
+@media(max-width: 991px) and (max-device-width: 991px) {
     .right-pageHeader-wrapper {
         .setting {
             display: flex;
@@ -87,7 +86,7 @@
         }
     }
 }
-@media(max-width: 767px) {
+@media(max-width: 767px) and (max-device-width: 767px) {
     .right-pageHeader-wrapper {
         .avatar {
             width: 114px;
@@ -95,7 +94,7 @@
             right: 0;
             top: -50px;
             bottom: 100%;
-            border: 5px solid #5dbce7;
+            border: 0.5vw solid #5dbce7;
             border-top-right-radius: 12px;
             border-bottom-left-radius: 12px;
             padding: 0.2vw;

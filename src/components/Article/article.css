@@ -86,7 +86,7 @@
   font-size: 1.5vw;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (max-device-width: 767px) {
   .article.media .thumbnail {
     width: 72px;
     margin-right: 13px;
