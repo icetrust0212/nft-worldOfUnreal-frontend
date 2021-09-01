@@ -302,7 +302,7 @@
   position: absolute;
   width: 6vw;
   left: calc(50% - 3vw);
-  top: 0;
+  top: calc(50% - 3vw);
   opacity: 0.05;
 }
 
